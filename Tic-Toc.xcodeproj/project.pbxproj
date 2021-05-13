@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		FA0E2C48264DA4FE000FA312 /* Tic_TocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E2C47264DA4FE000FA312 /* Tic_TocApp.swift */; };
-		FA0E2C4A264DA4FE000FA312 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E2C49264DA4FE000FA312 /* ContentView.swift */; };
+		FA0E2C4A264DA4FE000FA312 /* GametView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E2C49264DA4FE000FA312 /* GametView.swift */; };
 		FA0E2C4C264DA501000FA312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0E2C4B264DA501000FA312 /* Assets.xcassets */; };
 		FA0E2C4F264DA501000FA312 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0E2C4E264DA501000FA312 /* Preview Assets.xcassets */; };
+		FA0E2C58264DD65D000FA312 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E2C57264DD65D000FA312 /* Alert.swift */; };
+		FA0E2C5C264DE3FA000FA312 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E2C5B264DE3FA000FA312 /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA0E2C44264DA4FE000FA312 /* Tic-Toc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Toc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0E2C47264DA4FE000FA312 /* Tic_TocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_TocApp.swift; sourceTree = "<group>"; };
-		FA0E2C49264DA4FE000FA312 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA0E2C49264DA4FE000FA312 /* GametView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GametView.swift; sourceTree = "<group>"; };
 		FA0E2C4B264DA501000FA312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA0E2C4E264DA501000FA312 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA0E2C50264DA501000FA312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0E2C57264DD65D000FA312 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		FA0E2C5B264DE3FA000FA312 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				FA0E2C47264DA4FE000FA312 /* Tic_TocApp.swift */,
-				FA0E2C49264DA4FE000FA312 /* ContentView.swift */,
+				FA0E2C49264DA4FE000FA312 /* GametView.swift */,
+				FA0E2C5B264DE3FA000FA312 /* GameViewModel.swift */,
+				FA0E2C57264DD65D000FA312 /* Alert.swift */,
 				FA0E2C4B264DA501000FA312 /* Assets.xcassets */,
 				FA0E2C50264DA501000FA312 /* Info.plist */,
 				FA0E2C4D264DA501000FA312 /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA0E2C4A264DA4FE000FA312 /* ContentView.swift in Sources */,
+				FA0E2C5C264DE3FA000FA312 /* GameViewModel.swift in Sources */,
+				FA0E2C58264DD65D000FA312 /* Alert.swift in Sources */,
+				FA0E2C4A264DA4FE000FA312 /* GametView.swift in Sources */,
 				FA0E2C48264DA4FE000FA312 /* Tic_TocApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
